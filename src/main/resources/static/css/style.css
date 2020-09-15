@@ -1,0 +1,40 @@
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.hr{
+  border: none;
+  height: 1px;
+  color: #333;
+  background-color: #333;
+}
+.container {
+  width:90%;
+}
+.navbar {
+  margin-bottom: 20px;
+}
+.box{
+  border: 2px solid red;
+}
+.home-headline{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 24px;
+  color: #fff;
+  margin: auto;
+  text-align: center;
+  margin-top: -13px;
+}
+.overlap{
+    margin-top: -450px;
+}
+.home-headline span{
+  background-color: #333;
+  padding: 5px 22px;
+}
+.container-startup {
+  position: relative;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px 0 30px 0;
+} 

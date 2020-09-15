@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="https://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+
+<head th:fragment="common-header">
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>E Learning App</title>
+
+	<!-- Bootstrap core CSS -->
+	<link href="/css/bootstrap.min.css" rel="stylesheet">
+	<link href="/css/non-responsive.css" rel="stylesheet">
+
+	<!-- Custom styles for this template -->
+	<link href="/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+	<div th:fragment="navbar">
+		<!-- Static navbar -->
+		<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+			<!-- Brand -->
+			<a class="navbar-brand" href="#">V Learn</a>
+
+			<!-- Links -->
+			<ul class="navbar-nav">
+
+				<!-- Dropdown -->
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+						Courses
+					</a>
+					<div class="dropdown-menu">
+						<a class="dropdown-item" href="#">Brouse the shelf</a>
+						<a class="dropdown-item" href="#">Hours and directions</a>
+						<div class="dropdown-divider"></div>
+						<a class="dropdown-item" href="#">FAQ</a>
+					</div>
+				</li>
+			</ul>
+			<form class="form-inline my-2 my-lg-0">
+				<input class="form-control mr-sm-2" type="search" placeholder="Search Course" aria-label="Search">
+				<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+			</form>
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item">
+					<a class="nav-link" href="#">MY COURSE</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">MY PROFILE</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">LOGOUT</a>
+				</li>
+			</ul>
+		</nav>
+	</div>
+	<div th:fragment="body-bottom-scripts">
+		<!-- Bootstrap core JavaScript
+    ================================================== -->
+		<!-- Placed at the end of the document so the pages load faster -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="/js/bootstrap.min.js"></script>
+	</div>
+</body>
+
+</html>
